@@ -18,6 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   github: '',
+  instagram: 'cleofait', 
   linkedin: 'Cléophée Donnais',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
