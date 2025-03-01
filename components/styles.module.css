@@ -94,6 +94,10 @@
   color: #2795e9;
 }
 
+.instagram:hover {
+  color: #f58529; /* Instagram brand color */
+}
+
 .mastodon:hover {
   color: #5a4be1;
 }
