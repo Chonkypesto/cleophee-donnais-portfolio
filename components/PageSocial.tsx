@@ -64,7 +64,26 @@ export function PageSocial() {
           <div className={styles.actionBg}>{action.icon}</div>
         </a>
       ))}
+
+      {/* Instagram Share Button */}
+      <a
+        className={cs(styles.action, styles.instagram)}
+        href={`https://instagram.com/cleofait`}
+        title="Instagram @cleofait"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className={styles.actionBg}>
+          <div className={styles.actionBgPane} />
+        </div>
+        <div className={styles.actionBg}>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M7 2C3.7 2 2 3.7 2 7v10c0 3.3 1.7 5 5 5h10c3.3 0 5-1.7 5-5V7c0-3.3-1.7-5-5-5H7zm0 2h10c2 0 3 .8 3 3v10c0 2-.8 3-3 3H7c-2 0-3-.8-3-3V7c0-2 .8-3 3-3zm10 2a1 1 0 100 2 1 1 0 000-2zM12 6c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 2c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4z"></path>
+          </svg>
+        </div>
+      </a>
     </div>
   );
 }
+
 
