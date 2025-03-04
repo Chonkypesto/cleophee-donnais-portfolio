@@ -42,6 +42,16 @@ const socialLinks: SocialLink[] = [
         <path d='M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z' />
       </svg>
     )
+  },
+   config.youtube && {
+    name: 'youtube',
+    href: `https://youtube.com/${config.youtube}`,
+    title: `YouTube Channel`,
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M19.6 3.2H4.4A4.4 4.4 0 0 0 0 7.6v8.8a4.4 4.4 0 0 0 4.4 4.4h15.2a4.4 4.4 0 0 0 4.4-4.4V7.6a4.4 4.4 0 0 0-4.4-4.4zM9.6 15.6V8.4l6.4 3.6-6.4 3.6z"/>
+      </svg>
+    )
   }
 ].filter(Boolean); // Ensures we remove any undefined values
 
@@ -64,24 +74,6 @@ export function PageSocial() {
           <div className={styles.actionBg}>{action.icon}</div>
         </a>
       ))}
-
-      {/* Instagram Share Button */}
-      <a
-        className={cs(styles.action, styles.instagram)}
-        href={`https://instagram.com/cleofait`}
-        title="Instagram @cleofait"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div className={styles.actionBg}>
-          <div className={styles.actionBgPane} />
-        </div>
-        <div className={styles.actionBg}>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M7 2C3.7 2 2 3.7 2 7v10c0 3.3 1.7 5 5 5h10c3.3 0 5-1.7 5-5V7c0-3.3-1.7-5-5-5H7zm0 2h10c2 0 3 .8 3 3v10c0 2-.8 3-3 3H7c-2 0-3-.8-3-3V7c0-2 .8-3 3-3zm10 2a1 1 0 100 2 1 1 0 000-2zM12 6c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 2c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4z"></path>
-          </svg>
-        </div>
-      </a>
     </div>
   );
 }
