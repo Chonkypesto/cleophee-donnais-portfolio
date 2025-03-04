@@ -100,6 +100,13 @@
   border-color: #c9510c;
 }
 
+.instagram .actionBgPane {
+  background: #E1306C; /* Instagram pink */
+}
+.instagram:hover {
+  border-color: #E1306C; /* Change border color on hover */
+}
+
 .youtube .actionBgPane {
   background: #ff0000;
 }
