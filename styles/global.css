@@ -24,7 +24,7 @@ body {
 /* Load the Regalia Monarch font */
 @font-face {
   font-family: 'Regalia Monarch';
-  src: url('/fonts/RegaliaMonarch.woff2') format('woff2');
+  src: url('/fonts/regaliamonarch.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
