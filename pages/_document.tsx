@@ -16,10 +16,7 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
-            <link
-            href="https://db.onlinewebfonts.com/c/f7d34c9e4c3102c89048d775c27a78f3?family=The+Seasons+Bold"
-            rel="stylesheet"
-            />
+          
           </Head>
 
           <body>
