@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -21,10 +21,20 @@ body {
   overflow-x: hidden;
 }
 
+/* Load the Regalia Monarch font */
+@font-face {
+  font-family: 'Regalia Monarch';
+  src: url('/fonts/RegaliaMonarch.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply Regalia Monarch font to headlines */
 h1, h2, h3 {
-  font-family: 'The Seasons Bold', serif;
+  font-family: 'Regalia Monarch', serif;
   font-weight: bold;
 }
+
 .static-tweet blockquote {
   margin: 0;
   margin-block-start: 0;
@@ -43,16 +53,14 @@ h1, h2, h3 {
   caret-color: var(--fg-color);
 }
 
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
   width: 5px;
   height: 5px;
   background-color: #F5F5F5;
   background-color: var(--bg-color-1);
 }
 
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
   background-color: #555;
@@ -61,6 +69,6 @@ h1, h2, h3 {
   background-color: var(--fg-color-1);
 }
 
-::-webkit-scrollbar-track {           
-    background-color: var(--bg-color);
+::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
 }
