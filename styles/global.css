@@ -21,6 +21,10 @@ body {
   overflow-x: hidden;
 }
 
+h1, h2, h3 {
+  font-family: 'The Seasons Bold', serif;
+  font-weight: bold;
+}
 .static-tweet blockquote {
   margin: 0;
   margin-block-start: 0;
