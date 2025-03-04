@@ -54,6 +54,19 @@ export function FooterImpl() {
       </div>
 
       <div className={styles.social}>
+
+         {config.instagram && (
+          <a
+            className={styles.instagram}
+            href={`https://instagram.com/${config.instagram}`}
+            title={`Instagram @${config.instagram}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaInstagram />
+          </a>
+        )}
+        
         {config.twitter && (
           <a
             className={styles.twitter}
@@ -122,18 +135,6 @@ export function FooterImpl() {
             rel='noopener noreferrer'
           >
             <FaEnvelopeOpenText />
-          </a>
-        )}
-
-        {config.instagram && (
-          <a
-            className={styles.instagram}
-            href={`https://instagram.com/${config.instagram}`}
-            title={`Instagram @${config.instagram}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaInstagram />
           </a>
         )}
 
