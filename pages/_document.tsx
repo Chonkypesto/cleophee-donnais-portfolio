@@ -10,8 +10,8 @@ export default class MyDocument extends Document {
             <link
               rel='icon'
               type='image/png'
-              sizes='16x16'
-              href='favicon.png'
+              sizes='32x32'
+              href='pioupiou.png'
             />
 
             <link rel='manifest' href='/manifest.json' />
