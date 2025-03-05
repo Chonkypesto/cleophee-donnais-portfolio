@@ -7,14 +7,23 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
-            <link
-              rel='icon'
-              type='image/png'
-              sizes='32x32'
-              href='pioupiou.png'
-            />
-
-            <link rel='manifest' href='/manifest.json' />
+       <link 
+         rel='icon' 
+         type='image/png' 
+         href='/favicon16x16.png' 
+         sizes='16x16' />
+       <link 
+        rel='icon' 
+        type='image/png' 
+        href='/favicon48x48.png' 
+        sizes='48x48' />
+       <link 
+        rel='icon'
+        type='image/png' 
+        href='/favicon128x128.png' 
+        sizes='128x128' />
+            
+            <link   rel='manifest' href='/manifest.json' />
           
           </Head>
 
