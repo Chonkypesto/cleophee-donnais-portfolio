@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   github: '',
   instagram: 'cleofait', 
-  linkedin: 'Cléophée Donnais',
+  linkedin: 'in/cléophée-donnais-824790255',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   youtube: 'channel/UCHssLE_UdkMksq5ORXmKEGA/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
